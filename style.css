@@ -1,0 +1,179 @@
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #f6f2f2;
+    background-color: #f4f4f4; /* Color de fondo suave */
+}
+
+body {
+    background-image: url(./views/img/download\ \(1\).jpg); /* Asegúrate de tener la ruta correcta */
+    
+    background-position: center; /* Para centrar la imagen */
+    background-repeat: repeat; /* Para que  se repita el fondo */
+   }
+   
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #721c14; /* Color principal */
+    color: white;
+    padding: 9rem;
+    margin-bottom: 12rem;
+    border-radius: 11.5rem; /* Bordes redondeados */
+}
+.jumbotron text-center{
+    font-size: 4.5rem;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    text-align:  #d62828;
+    margin-bottom: 1rem;
+}
+
+/* Contenedor de eventos */
+.container {
+    margin-top: 2rem;
+}
+
+/* Estilos para el pie de página */
+footer {
+    
+    color: white;
+    
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Enlaces */
+a {
+    color: #007bff; /* Color de enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar en hover */
+}
+
+/* Estilo del carrusel */
+.carousel-inner img {
+    width: 100%;
+    height: auto; /* Asegura que las imágenes mantengan su proporción */
+}
+
+/* Espaciado para listas */
+ul {
+    list-style: none; /* Quitar marcas de lista */
+}
+
+ul li {
+    margin-bottom: 0.5rem; /* Espacio entre elementos de lista */
+}
+
+/* Controles del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para íconos */
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex; /* Usar flexbox para el navbar */
+    justify-content: center; /* Centrar los elementos del navbar */
+   }
+   
+   .navbar-nav {
+    display: flex; /* Asegurando que los elementos se alineen horizontalmente */
+   }
+   
+   .navbar-nav li {
+    margin: 0 15px; /* Espacio entre enlaces del menú */
+   }
+   
+
+
+
+
+
+.navbar {
+    margin-bottom: 1rem; /* Espaciado bajo la navbar */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Hacer el nombre de la marca más destacado */
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 1rem; /* Menos padding en pantallas pequeñas */
+    }
+
+    .container {
+        padding: 0 1rem; /* Espaciado lateral en pantallas pequeñas */
+    }
+}
+
+/* Estilo adicional para caja */
+.box {
+    background-color: white; /* Fondo blanco para contenido */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    padding: 1.5rem; /* Espaciado interior */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 1rem; /* Espaciado entre cajas */
+}
+
+/* Flexbox ejemplo para centrar contenido */
+.flex-center {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+/* Ejemplo de estilo para el botón de contacto */
+.btn-custom {
+    background-color: #28a745; /* Color verde para botones */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem; /* Espaciado interno */
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #218838; /* Color más oscuro al pasar sobre el botón */
+}
+
+
+.social-media {
+    list-style: none; /* Quitar marcadores de lista */
+    padding: 0;
+    display: flex; /* Usar flexbox para alineación horizontal */
+    justify-content: center; /* Centrar los íconos de redes sociales */
+    margin-top: 1rem; /* Espacio arriba de la lista */
+   }
+   
+   .social-media li {
+    margin: 0 10px; /* Espacio entre los íconos */
+   }
+   
+   .social-media a {
+    color: white; /* Color para el texto de las redes sociales */
+    text-decoration: none; /* Sin subrayado */
+   }
+   
+   .social-media a:hover {
+    text-decoration: underline; /* Subrayar en hover */
+   }
+   
