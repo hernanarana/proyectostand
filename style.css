@@ -27,7 +27,8 @@ body {
     color: white;
     padding: 9rem;
     margin-bottom: 12rem;
-    border-radius: 11.5rem; /* Bordes redondeados */
+    border-radius: 26.5rem; /* Bordes redondeados */
+    font-size: 4.5rem ;
 }
 .jumbotron text-center{
     font-size: 4.5rem;
@@ -66,8 +67,8 @@ a:hover {
 
 /* Estilo del carrusel */
 .carousel-inner img {
-    width: 100%;
-    height: auto; /* Asegura que las imágenes mantengan su proporción */
+    width: 95%;
+    height:auto ; /* Asegura que las imágenes mantengan su proporción */
 }
 
 /* Espaciado para listas */
@@ -133,7 +134,7 @@ ul li {
     margin-bottom: 1rem; /* Espaciado entre cajas */
 }
 
-/* Flexbox ejemplo para centrar contenido */
+/* Flexbox  */
 .flex-center {
     display: flex;
     justify-content: center; /* Centrado horizontal */
@@ -141,7 +142,7 @@ ul li {
     height: 100vh; /* Altura completa de la ventana */
 }
 
-/* Ejemplo de estilo para el botón de contacto */
+/* estilo para el botón de contacto */
 .btn-custom {
     background-color: #28a745; /* Color verde para botones */
     color: white;
