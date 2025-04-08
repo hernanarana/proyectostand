@@ -1,0 +1,173 @@
+// Variables
+$font-family: 'Roboto', sans-serif;
+$background-color: #f4f4f4;
+$text-color: #f6f2f2;
+$jumbotron-bg: #721c14;
+$link-color: #007bff;
+$link-hover-color: darken($link-color, 10%);
+$button-bg: #28a745;
+$button-hover-bg: #218838;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  line-height: 1.6;
+  color: $text-color;
+  background-color: $background-color;
+  background-image: url(./views/img/download\(1\).jpg);
+  background-position: center;
+  background-repeat: repeat;
+}
+
+// Jumbotron
+.jumbotron {
+  background-color: $jumbotron-bg;
+  color: white;
+  padding: 9rem;
+  margin-bottom: 12rem;
+  border-radius: 26.5rem;
+  font-size: 4.5rem;
+  text-align: center;
+
+  text-center {
+    font-size: 4.5rem;
+  }
+}
+
+// Títulos
+h1, h2, h3 {
+  text-align: #d62828;
+  margin-bottom: 1rem;
+}
+
+// Contenedor de eventos
+.container {
+  margin-top: 2rem;
+}
+
+// Estilos para el pie de página
+footer {
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+// Enlaces
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Estilo del carrusel
+.carousel-inner img {
+  width: 95%;
+  height: auto; 
+}
+
+// Espaciado para listas
+ul {
+  list-style: none;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Controles del carrusel
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+// Navbar
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+
+  .navbar-nav {
+    display: flex;
+
+    li {
+      margin: 0 15px;
+    }
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+  }
+}
+
+// Media Queries para Responsividad
+@media (max-width: 768px) {
+  .jumbotron {
+    padding: 1rem;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+// Estilo adicional para caja
+.box {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+// Flexbox
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+// Estilo para el botón de contacto
+.btn-custom {
+  background-color: $button-bg;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $button-hover-bg;
+  }
+}
+
+// Redes sociales
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+  li {
+    margin: 0 10px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
